@@ -1,0 +1,41 @@
+.header {
+  background-image: url(../public/background.webp);
+  background-size: cover;
+  height: 120vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto auto;
+  align-content: end;
+  gap: 2rem;
+}
+
+.header__container {
+  height: 100%;
+  grid-row: 1/2;
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container__title {
+  width: 30rem;
+}
+
+.container__price {
+  background-color: var(--playstationblue);
+  color: var(--white);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 29.96px;
+  text-align: center;
+  box-shadow: 0px 0px 15px #0072ce;
+  border-radius: 5px;
+  border: none;
+  padding: 0.6rem 1.2rem;
+}
+
+.header__trendingContainer {
+  grid-row: 2/3;
+  grid-column: 1/-1;
+}

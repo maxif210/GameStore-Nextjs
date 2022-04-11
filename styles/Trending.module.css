@@ -1,0 +1,15 @@
+.trending{
+    max-width: var(--container);
+    margin: 0 auto;
+}
+
+.trending__title {
+    color: var(--white);
+    font-size: 25px;
+    padding: 0 2rem;
+}
+.trending__cardtrending {
+    display: flex;
+    justify-content: center;
+}
+

@@ -1,0 +1,44 @@
+.salesanddeals {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: var(--padding);
+}
+.salesanddeals__title {
+  color: var(--white);
+  font-size: 25px;
+  padding: 0 2rem;
+}
+
+.salesanddeals__cardcontainer {
+  display: flex;
+  gap: 4rem;
+  margin: 0 auto;
+  justify-items: center;
+}
+.card {
+  width: 500px;
+  height: 200px;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 5rem;
+}
+.card__1 {
+  /* background-image: url(/public/black-friday.png); */
+  background-image: url("../public/black-friday.webp");
+}
+.card__2 {
+  background-image: url("../public/bigsale.webp");
+}
+.card__3 {
+  background-image: url("../public/codSALE.jpg");
+}
+
+.mapeo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  gap: 4rem;
+  margin: 0 auto;
+  justify-items: center;
+}

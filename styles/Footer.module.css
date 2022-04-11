@@ -1,0 +1,12 @@
+.banner {
+    padding: var(--padding) ;
+}
+
+.socialmediaContainer{
+    width: 400px;
+   
+}
+
+.instagram{
+    background-image:url(../public/instagram.svg) ;
+}
